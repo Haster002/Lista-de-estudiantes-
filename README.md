@@ -1,54 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabla de Desempeño de Estudiantes</title>
   <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('logo_up.png'); /* Ruta a tu imagen de fondo */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
-    table, th, td {
-      border: 1px solid black;
-      text-align: center;
-      padding: 8px;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
-</head>
-<body>
-
-<h2>Desempeño de Estudiantes</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Nombre y Apellido</th>
-      <th>Porcentaje</th>
-      <th>Estado</th>
-      <th>Total de preguntas contestadas correctamente</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ava Rodriguez</td>
-      <td>88%</td>
-      <td>Aprobado</td>
-      <td>352</td>
-    </tr>
-    <tr>
-      <td>Liam Nguyen</td>
-      <td>61%</td>
-      <td>No aprobado</td>
-      <td>244</td>
-    </tr>
-    <!-- Continúa con los demás estudiantes -->
-    <!-- Puedes copiar y pegar las filas de datos aquí -->
-  </tbody>
-</table>
-
-</body>
-</html>
+    .tabla-container {
+      width: 80%;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para la tabla */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.
